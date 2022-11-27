@@ -1,0 +1,90 @@
+<%- include("header") -%>
+<section class="colored-section" id="title">
+
+  <div class="container-fluid">
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+      <a class="navbar-brand" href="">JOKE-BOX</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#PRO">View jokes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://sv443.net/jokeapi/v2/">About API </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href=" https://shyamsundarreddy5150.github.io/CV-with-html-CSS/">About me</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+
+
+    <div class="row">
+
+      <div class="col-lg-6">
+        <h1 class="big-heading">This site is developed by using HTML,CSS,JS,NODE.JS,EXPRESS.JS,EJS,API</h1>
+
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+        <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+        <path
+          d="M64 96c0-35.3 28.7-64 64-64H512c35.3 0 64 28.7 64 64V352H512V96H128V352H64V96zM0 403.2C0 392.6 8.6 384 19.2 384H620.8c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8H76.8C34.4 480 0 445.6 0 403.2zM281 209l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM393 175l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z" />
+      </svg>
+      <h1 class="feature-title">Programming joke:</h1>
+      <h2>The API request a programming joke and renders the responce</h2>
+      </div>
+
+
+
+    </div>
+
+
+
+</section>
+
+
+
+
+
+
+<hr>
+
+
+  <div class="container-fluid">
+    <div class="PROG" id="PRO">
+      <h1>Your Programming joke</h1>
+
+
+
+      <h1>{ </h1>
+      <h1><%= joke %> }</h1>
+
+      <button class="button-86" role="button" onClick="window.location.reload();" >new joke</button>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include("footer") -%>
